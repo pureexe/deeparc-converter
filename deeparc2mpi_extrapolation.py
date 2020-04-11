@@ -10,8 +10,8 @@ IMAGE_DIRECTORY = 'C:/Datasets/deeparc/teabottle_green/model/undistroted_custom_
 COLMAP_SPARSE_DIRECTORY = 'C:/Datasets/deeparc/teabottle_green/model/undistroted_custom_matching/sparse/'
 SOURCE_IMAGE = ['cam004/cam004_00038.jpg','cam004/cam004_00002.jpg']
 REFERNCE_IMAGE = 'cam004/cam004_00000.jpg'
-TARGET_IMAGE = 'cam004/cam004_00001.jpg'
-OUTPUT_PATH = 'teabottle.npz'
+TARGET_IMAGE = 'cam004/cam004_00000.jpg'
+OUTPUT_PATH = 'teabottle_full.npz'
 
 def get_image(image_name):
     image_path = os.path.join(IMAGE_DIRECTORY,image_name)
